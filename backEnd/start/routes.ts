@@ -44,9 +44,6 @@ Route.put('/tasks', async ({ request }) => {
 })
 
 // Deleta a tarefa com o status 1
-Route.delete('/tasks', async ({ request }) => {
-    const { id } = request.body()
-    const task = await Task.findOrFail(id)
-
-    await task.delete()
+Route.delete('/tasks', async () => {
+    await Task.query().where('status', 1).delete()
 })

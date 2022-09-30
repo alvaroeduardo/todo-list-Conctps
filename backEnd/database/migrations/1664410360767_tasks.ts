@@ -8,8 +8,8 @@ export default class extends BaseSchema {
             
             table.increments('id').unique()
             table.string('title').notNullable()
-            table.json('tags')
-            table.boolean('status').notNullable() // 0 -> false | 1 -> true
+            table.string('tags')
+            table.string('status').notNullable() // 0 -> false | 1 -> true
             table.date('date').notNullable()
 
             table.timestamp('created_at', { useTz: true })

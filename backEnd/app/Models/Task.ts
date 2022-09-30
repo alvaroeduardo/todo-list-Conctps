@@ -9,10 +9,10 @@ export default class Task extends BaseModel {
     public title: string
 
     @column()
-    public tags: JSON
+    public tags: string
 
     @column()
-    public status: boolean
+    public status: string
 
     @column()
     public date: string
