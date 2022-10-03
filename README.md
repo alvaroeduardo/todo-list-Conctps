@@ -10,7 +10,7 @@ Para rodar esse projeto, você vai precisar rodar esses comando no seu terminal.
 Primeiro clone o repositório: `https://github.com/alvaroeduardo/todo-list-Conctps.git`
 
 Após isso entre em ambas as pastas "front-end" e "backEnd"
-`npm install` ou `yarn dev`
+`npm install` ou `yarn`
 
 Após a instalação das dependências, abra a pasta "backEnd" entre no diretório "/config/database.ts" e em mysql troque todos os dados pelos seus da sua máquina local.
 
