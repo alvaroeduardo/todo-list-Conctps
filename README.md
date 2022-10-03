@@ -21,6 +21,6 @@ Depois inicie a aplicação com `yarn dev`
 Abra a pasta front-end e inicie com `yarn dev`
 ## Stack utilizada
 
-**Front-end:** NextJS, React, ChakraUI, Axios, date-fns, Typescript
+**Front-end:** NextJS, React, ChakraUI, Axios, date-fns, Typescript, React Hook Form
 
 **Back-end:** AdonisJS, MySQL, Typescript
