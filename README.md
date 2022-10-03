@@ -5,7 +5,7 @@ Desafio técnico para a vaga de dev na Conctps.
 ## Iniciando a aplicação
 
 Inicialmente você precisará ter o MySQL instalado em sua máquina e precisará criar um novo db com o nome de `todolist`
-Para rodar esse projeto, você vai precisar rodar esses comando no seu terminal.Cancel changes
+Para rodar esse projeto, você vai precisar rodar esses comando no seu terminal.
 
 Primeiro clone o repositório: `https://github.com/alvaroeduardo/todo-list-Conctps.git`
 
