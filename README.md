@@ -14,7 +14,9 @@ Após isso entre em ambas as pastas "front-end" e "backEnd"
 
 Após a instalação das dependências, abra a pasta "backEnd" entre no diretório "/config/database.ts" e em mysql troque todos os dados pelos seus da sua máquina local.
 
-Depois salve e inicie a aplicação com `yarn dev`
+Após isto, salve e rode esse comando no terminal `node ace migration:run`
+
+Depois inicie a aplicação com `yarn dev`
 
 Abra a pasta front-end e inicie com `yarn dev`
 ## Stack utilizada
